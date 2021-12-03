@@ -117,7 +117,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 
-		if IsControlJustReleased(0, Keys['F3']) and IsInputDisabled(0) then -- Change `F3` to the Keybind you'd like
+		if IsControlJustReleased(0, Keys['F4']) and IsInputDisabled(0) then -- Change `F3` to the Keybind you'd like
 			ToggleScoreBoard()
 			Citizen.Wait(200)
 
